@@ -19,9 +19,9 @@ device_str = st.sidebar.selectbox("Device", [default_device, "cpu"])
 device = torch.device(device_str)
 
 # ---------- Pick latest model folder safely ----------
-candidates = sorted(glob.glob("model_artifacts/sentiment_*"))
+candidates = sorted(glob.glob("model_artifacts"))
 if not candidates:
-    st.error("No model folders found in `model_artifacts/`. Expected e.g. model_artifacts/sentiment_YYYYMMDD_HHMM/")
+    st.error("No model folders found in `model_artifacts`. Expected e.g. model_artifacts")
     st.stop()
 MODEL_DIR = candidates[-1]
 st.sidebar.write(f"Model: `{os.path.basename(MODEL_DIR)}`")
