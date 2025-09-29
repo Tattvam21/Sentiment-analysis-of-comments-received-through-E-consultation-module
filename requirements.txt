@@ -1,5 +1,14 @@
-streamlit
-torch
-transformers
 pandas
 numpy
+scikit-learn
+torch
+transformers
+datasets
+sentencepiece
+accelerate
+protobuf<=3.20
+matplotlib
+seaborn
+wordcloud
+plotly
+streamlit
