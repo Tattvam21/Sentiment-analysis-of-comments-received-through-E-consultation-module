@@ -1,0 +1,34 @@
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data files (large datasets)
+data/*.csv
+data/*.tsv
+data/*.json
+
+# Model artifacts (checkpoints, weights)
+model_artifacts/*.safetensors
+model_artifacts/*.pt
+model_artifacts/*.h5
+model_artifacts/*.ckpt
+
+# Backup / temp files
+*.bak
+*.tmp
