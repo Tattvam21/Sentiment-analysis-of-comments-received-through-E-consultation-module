@@ -1,0 +1,6 @@
+# Ignore local model weights and big data
+model_artifact/
+data/
+*.csv
+*.tsv
+.ipynb_checkpoints/
